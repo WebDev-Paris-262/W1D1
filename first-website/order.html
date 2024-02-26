@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/main.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="./index.html">Home</a>
+				<a href="./about.html">About</a>
+				<a href="./order.html">Order</a>
+			</nav>
+			<div id="hero">
+				<h1>Order time</h1>
+			</div>
+		</header>
+
+		<main>
+			<form action="">
+				<div>
+					<select>
+						<option value="" selected disabled>Please select a pizza</option>
+						<option value="margherita">Margherita</option>
+						<option value="regina">Regina</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="amount-of-pizza">Amount of pizzas:</label>
+					<input
+						id="amount-of-pizza"
+						type="number"
+						min="1"
+						max="10"
+						placeholder="Number of pizze" />
+				</div>
+				<fieldset>
+					<legend>Extras</legend>
+					<input type="checkbox" name="extras" id="cheese" />
+					<label for="cheese">More cheese?</label>
+					<input type="checkbox" name="extras" id="ananas" />
+					<label for="ananas">Fancy ananas?</label>
+					<input type="checkbox" name="extras" id="prosciutto" />
+					<label for="prosciutto">More prosciutto?</label>
+				</fieldset>
+
+				<button>Send it</button>
+			</form>
+		</main>
+	</body>
+</html>

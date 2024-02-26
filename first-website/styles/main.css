@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: dodgerblue;
+	margin: 0;
+}
+
+nav {
+	background-color: black;
+	/* padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px; */
+	/* padding: 25px 20px 50px 50px; */
+	padding: 25px 20px;
+	& a {
+		color: yellow;
+	}
+}
+
+/* nav > a {
+	color: red;
+} */
+
+/* a {
+	color: whitesmoke;
+} */
+
+#hero {
+	background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+
+main {
+	max-width: 900px;
+	margin: 0 auto;
+}
+/* article {
+	background-color: black;
+}
+
+article {
+	background-color: yellow !important; 
+	background-color: blue;
+} */
+
+.article-container {
+	margin: 20px 0;
+	background-color: hsl(180, 30%, 80%);
+	padding: 10px 20px;
+	/* vh: view-height  100vh  mean 100% of the height of the screen */
+	/* vw: view-width  75vw  mean 75% of the width of the screen */
+	height: 100vh;
+}
